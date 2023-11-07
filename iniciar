@@ -1,0 +1,2 @@
+que onda gallo, para empezar tienen abrir la terminal para dar un cd al backend (FacturaFacil> cd backend), luego en la terminal tienen que colocar "npm i" para que se les istale todo,
+para ejecutar el back tiene que colocar en la terminal "node server.js".
