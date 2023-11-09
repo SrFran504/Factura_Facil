@@ -14,7 +14,7 @@ Importar Rutas
 */
 
 const userRoutes = require('./src/routers/userRoutes');
-
+const proveedoresRoutes = require('./src/routers/proveedores');
 
 const port= process.env.PORT || 7000;
 
@@ -46,7 +46,7 @@ userRoutes(app, upload);
 
 
 
-server.listen(7000, '192.168.56.1' || 'localhost', function() {
+server.listen(7000, '192.168.0.153' || 'localhost', function() {
     console.log('correo corriendo ' + process.pid + " "+port)
 });
 
